@@ -8,7 +8,7 @@ cache:
 
 before_install:
   - npm install -g ganache-cli
-  - ganache-cli --gasLimit 8000000 -h localhost -p 8545 2>&1 > ganache-output-$(date +%Y-%M-%dT%H:%M:%S).txt &
+  - ganache-cli --gasLimit 8000000 -h localhost -p 8545 2>&1 > ganache-output.log &
 
 install:
   - npm install
@@ -19,3 +19,4 @@ jobs:
       script:
         - npm run lint
         - npm run test
+        - cat ganache-output.log
