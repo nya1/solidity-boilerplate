@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/nya1/solidity-boilerplate/issues"
   },
-  "homepage": "https://github.com/nya1/solidity-boilerplate#readme"
+  "homepage": "https://github.com/nya1/solidity-boilerplate#readme",
+  "devDependencies": {
+    "truffle": "^5.0.22"
+  }
 }
