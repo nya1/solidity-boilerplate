@@ -12,8 +12,8 @@ contract Example {
      * @dev Change `myString` variable
      * @param newStr New string
      */
-    function changeStr (string memory newStr) public {
-        require(bytes(newStr).length < 100, "String should be less than 100");
+    function changeString (string memory newStr) public {
+        require(bytes(newStr).length < 100, "String should be less than 100 characters");
         myString = newStr;
     }
 }

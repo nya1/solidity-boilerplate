@@ -28,6 +28,7 @@
     "ethlint": "^1.2.4",
     "prettier-standard": "^9.1.1",
     "solidity-docgen": "^0.1.1",
-    "truffle": "^5.0.22"
+    "truffle": "^5.0.22",
+    "truffle-assertions": "^0.9.1"
   }
 }
