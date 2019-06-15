@@ -14,3 +14,46 @@ Included
  * Example contract with tests
  * Complete continuous integration setup for Travis / CircleCI / GitLab CI
 
+
+## Install
+
+`npm install`
+
+
+
+## Test
+
+`npm run test`
+
+
+### Continuous integration
+
+CI will:
+
+ * Start `gananche-cli` node
+ * Install package
+ * Run linting (`npm run lint`)
+ * Run tests (`npm run test`)
+ * Before exit it will print the ganache node output (it can be used for debug)
+
+
+
+## Lint
+
+Lint both JS and Solidity files:
+
+`npm run lint`
+
+
+Javascript files only:
+
+`npm run lint:js`
+
+
+Solidity files only:
+
+`npm run lint:sol`
+
+
+
+
