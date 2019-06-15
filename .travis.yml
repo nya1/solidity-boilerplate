@@ -19,4 +19,3 @@ jobs:
       script:
         - npm run lint
         - npm run test
-        - cat ganache-output.log

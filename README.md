@@ -12,13 +12,19 @@ Included
  * Ethlint (Solium) linter with rules
  * Standard and prettier to lint JS code
  * Example contract with tests
- * Complete continuous integration setup for Travis / CircleCI / GitLab CI
+ * Complete continuous integration setup for Travis / GitLab CI
 
 
 TODO:
 
  * Add solidity documentation generator
  * Add solidity coverage
+
+
+## Get started
+
+`git clone https://github.com/nya1/solidity-boilerplate my-project`
+
 
 ## Install
 
@@ -39,8 +45,6 @@ CI will:
  * Install package
  * Run linting (`npm run lint`)
  * Run tests (`npm run test`)
- * Before exit it will print the ganache node output (it can be used for debug)
-
 
 
 ## Lint
