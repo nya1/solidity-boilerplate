@@ -1,0 +1,22 @@
+{
+  "name": "solidity-boilerplate",
+  "version": "0.1.0",
+  "description": "A boilerplate project to quickly kickstart your solidity projects, linting, CI setup included",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nya1/solidity-boilerplate.git"
+  },
+  "author": "nya1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nya1/solidity-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nya1/solidity-boilerplate#readme"
+}
