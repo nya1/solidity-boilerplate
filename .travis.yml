@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - "10"
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - npm install -g ganache-cli
+  - ganache-cli --gasLimit 8000000 -h localhost -p 8545 2>&1 > ganache-output-$(date +%Y-%M-%dT%H:%M:%S).txt &
+
+install:
+  - npm install
+
+jobs:
+  include:
+    - stage: test
+      name: "Lint"
+      script: npm run lint
+
+    - stage: test
+      name: "Unit test"
+      script: npm run test

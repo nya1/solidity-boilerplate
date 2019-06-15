@@ -10,11 +10,15 @@ Included
 
  * Truffle 5 with optimization enabled
  * Ethlint (Solium) linter with rules
- * Solidity documentation generator via solidity-docgen
  * Standard and prettier to lint JS code
  * Example contract with tests
  * Complete continuous integration setup for Travis / CircleCI / GitLab CI
 
+
+TODO:
+
+ * Add solidity documentation generator
+ * Add solidity coverage
 
 ## Install
 
