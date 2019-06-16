@@ -10,6 +10,7 @@
     "test": "truffle test",
     "compile": "truffle compile",
     "build": "truffle build",
+    "truffle": "truffle",
     "lint": "prettier-standard '**/*.js' --fix; solium -d contracts",
     "lint:js": "prettier-standard '**/*.js' --fix",
     "lint:sol": "solium -d contracts"
