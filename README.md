@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/nya1/solidity-boilerplate.svg?branch=master)](https://travis-ci.org/nya1/solidity-boilerplate)
 
 
-A boilerplate project to quickly kickstart your solidity project with best practices.
+A modern boilerplate project to quickly kickstart your solidity project with best practices.
 
 Included
 
@@ -14,6 +14,9 @@ Included
  * Standard and prettier to lint JS code
  * Example contract with tests
  * Complete continuous integration setup for Travis / GitLab CI
+
+
+This is not an obstructive or complex boilerplate, you can remove/add any modules with minimal effort.
 
 
 TODO:
