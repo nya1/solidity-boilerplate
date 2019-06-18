@@ -21,7 +21,7 @@
     "url": "git+https://github.com/nya1/solidity-boilerplate.git"
   },
   "author": "nya1",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nya1/solidity-boilerplate/issues"
   },

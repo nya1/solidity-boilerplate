@@ -90,5 +90,7 @@ Solidity files only:
 `npm run lint:sol`
 
 
+## License
 
+MIT
 
