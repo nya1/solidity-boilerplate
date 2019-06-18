@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "solidity-boilerplate",
   "version": "0.1.0",
   "description": "A boilerplate project to quickly kickstart your solidity projects, linting, CI setup included",
